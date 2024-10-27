@@ -1,0 +1,75 @@
+/* we learn selector */
+/* universer selector */
+/* first tast */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+/* element selector */
+h1{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: aqua;
+}
+button{
+    color: lightgreen;
+    background-color: black;
+}
+body{
+    background-color: lightslategray;
+}
+/* id selector */
+#det{
+    color: blue;
+}
+#deta{
+    color: black;
+}
+/* class selector */
+.para{
+    color: white;
+}
+/*  */
+
+#box{
+    background-color: blue;
+    border: solid;
+    text-align: justify;
+    margin: 25px;
+    padding: 30px;
+    box-shadow: 19px 19px  10px white, 19px 19px 10px rgb(185, 22, 22);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.same{
+    color: #ff0000;
+}
+button{
+    background-color: green;
+}
+
+a:link{
+
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+
+/* second test */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#heading1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#outer{
+   font-size: 25px;
+#inner{
+  font-size: 10px;
+}

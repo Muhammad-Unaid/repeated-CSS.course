@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice 6</title>
+    <style>
+        .contanir{
+            background-color: pink;
+          
+           
+        }
+        .contanir ul{
+            display: flex;
+            justify-content: space-evenly;
+            
+            
+        }
+        li{ 
+            list-style-type: none;
+            text-decoration: none;
+            display: inline;
+        }
+        a{
+            text-decoration: none;
+        }
+        #outer{
+            width: 400px;
+            height: 400px;
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner{
+            width: 100px;
+            height: 100px;
+            background-color: darkorchid;
+        }
+        @media (max-width : 600px ) {
+            #outer{
+                background-color: darkorchid;
+            }
+            .inner{
+                background-color: cornflowerblue; 
+            }
+        }
+        @media (min-width: 800px)and (max-width:1000px ){
+            #outer{
+                background-color: aliceblue;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="contanir">
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">insert</a></li>
+            <li><a href="">contact us</a></li>
+        </ul>
+    </div>
+    <div id="outer">
+        <div class="inner">
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+#playground{
+    border: 2px solid ;
+    width: 650px;
+    height: 300px;
+    display: flex;
+    flex-direction: center;
+    
+    
+
+
+    
+
+}
+.box{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+   
+}

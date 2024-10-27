@@ -1,0 +1,50 @@
+button {
+    text-transform: capitalize;
+    width: 130px;
+    height: 60px;
+    background-color: aqua;
+}
+
+button:hover {
+    border-radius: 14px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    transition: all 1s ease-in-out 0.5s;
+    font-family: 'Times New Roman', Times, serif111;
+    transform: rotate(360deg);
+
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+animation: colorAnimation 3s ease-in 2s infinite normal;
+
+
+
+}
+
+@keyframes colorAnimation {
+    0% {
+        left: 0px;
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: ;
+    }
+
+    100% {
+        left: 200px;
+        background-color: red;
+        font-size: 60px;
+        border-radius: 50px;
+        color: aquamarine;
+    }
+}

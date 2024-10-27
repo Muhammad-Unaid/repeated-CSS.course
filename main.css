@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.contanier{
+    border: 2px solid;
+    width: 650px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+   
+
+}
+#box1{
+    background-color: red;
+    width: 200px;
+    height: 360px;
+
+
+}
+#box2{
+    background-color: green;
+    width: 200px;
+    height: 240px;
+}
+#box3{
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+}
+#box4{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+#box5{
+    background-color: burlywood;
+    width: 200px;
+    height: 280px;
+}

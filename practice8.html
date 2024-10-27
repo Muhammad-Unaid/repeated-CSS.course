@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Practice 8</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .contanier {
+            border: 2px solid black;
+            width: 350px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 3px 3px 0px 0px;
+
+        }
+
+        #first {
+
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+                linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+            /* border: 19px solid aquamarine; */
+            /* border-top: 5px dashed black; */
+            animation: loading 2s ease-in-out -1s infinite normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #inner {
+            background-color: rgb(252, 252, 252);
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            /* animation: color 1s ease-in-out 0s infinite normal; */
+        }
+
+
+        #first1 {
+
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 19px solid aquamarine;
+            /* border-top: 19px dashed black; */
+            animation: loading 2s ease-in-out -1s infinite normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #inner1 {
+            background-color: #fff;
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            /* animation: color 1s ease-in-out 0s infinite normal; */
+        }
+
+        #first2 {
+
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+
+                linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+            /* border: 19px solid aquamarine; */
+            border-top: 8px dashed black;
+            animation: loading 4s ease-in-out -1s infinite normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #first3 {
+
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+
+            border: 14px solid aquamarine;
+            border-top: 14px groove black;
+            animation: loading 0.9s ease-in-out -1s infinite normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #first4 {
+
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background:
+                linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgb(6, 126, 200), rgba(0, 0, 255, 0) 70.71%);
+            /* border: 19px solid aquamarine; */
+            border-bottom: 15px dotted black;
+            animation: loading 2s ease-in-out -1s infinite normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #inner4 {
+            background-color: rgb(252, 252, 252);
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            /* animation: color 1s ease-in-out 0s infinite normal; */
+        }
+
+        #first1 {
+
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 19px solid aquamarine;
+            /* border-top: 19px dashed black; */
+            animation: loading 2s ease-in-out -1s infinite normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #inner1 {
+            background-color: #fff;
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            /* animation: color 1s ease-in-out 0s infinite normal; */
+        }
+
+        #first5 {
+
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+           
+            border: 19px solid rgb(8, 94, 121);
+            /* border-top: 5px dashed black; */
+            animation: loading 0.8           s ease-in-out -1s infinite normal;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+
+
+        }
+
+        #inner5 {
+            background-color: rgb(17, 17, 17);
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            animation: color 1s ease-in-out 0s infinite normal;
+            
+        }
+
+
+
+
+
+
+        @keyframes loading {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes color {
+            0% {
+                background-color: orange;
+            }
+
+            50% {
+                background-color: pink;
+            }
+
+            100% {
+                background-color: skyblue;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contanier">
+        <h1>hello world<span style="color: red;">(1)</span></h1>
+        <div id="first">
+            <div id="inner"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <h1>hello world <span style="color: red;">(2)</span> </h1>
+        <div id="first1">
+            <div id="inner1"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <h1>hello world <span style="color: red;">(3)</span></h1>
+        <div id="first2">
+            <div id="inner2"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <h1>hello world <span style="color: red;">(4)</span> </h1>
+        <div id="first3">
+            <div id="inner3"></div>
+        </div>
+    </div>
+    <div class="contanier">
+        <h1>hello world <span style="color: red;">(5)</span> </h1>
+        <div id="first4">
+            <div id="inner4"></div>
+        </div>
+    </div>
+    </div>
+    <div class="contanier">
+        <h1>hello world <span style="color: red;">(6)</span> </h1>
+        <div id="first5">
+            <div id="inner5"></div>
+        </div>
+    </div>
+    </div>
+    <div class="contanier">
+        <h1>hello world <span style="color: red;">(7)</span> </h1>
+        <div id="first">
+            <div id="inner"></div>
+        </div>
+    </div>
+    </div>
+    <div class="contanier">
+        <h1><span style="color: red;">(8)</span></h1>
+        <div id="first">
+            <div id="inner"></div>
+        </div>
+    </div>
+</body>
+
+</html>
